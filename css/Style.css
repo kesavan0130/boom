@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: white;
+}
+
+.contanier1{
+    box-sizing:border-box;
+background-color:purple;
+
+
+/* width: 100%; */
+
+display: flex;
+padding: 10px;
+justify-content: space-between;
+}
+.contanier1 .title{
+    color:wheat;
+    /* text-align: center; */
+    display: flex;
+}
+.contanier1 .navlist{
+    text-decoration: none;
+    color:#D9B70D ;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 50%;
+}
+.contanier2{
+    display: flex;
+    justify-content: space-between;
+}
+.contanier2.con1-content{
+    justify-content: space-between;
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Color Theme Swatches in Hex */
+/* .Fashion-1-hex { color: #0F97A6; }
+.Fashion-2-hex { color: #14A6A6; }
+.Fashion-3-hex { color: #8C3503; }
+.Fashion-4-hex { color: #D99379; }
+.Fashion-5-hex { color: #262626; } */
+
+/* Color Theme Swatches in RGBA */
+/* .Fashion-1-rgba { color: rgba(14, 150, 165, 1); }
+.Fashion-2-rgba { color: rgba(19, 165, 165, 1); }
+.Fashion-3-rgba { color: rgba(140, 53, 2, 1); }
+.Fashion-4-rgba { color: rgba(216, 146, 121, 1); }
+.Fashion-5-rgba { color: rgba(38, 38, 38, 1); } */
+
+/* Color Theme Swatches in HSLA */
+/* .Fashion-1-hsla { color: hsla(185, 83, 35, 1); }
+.Fashion-2-hsla { color: hsla(180, 78, 36, 1); }
+.Fashion-3-hsla { color: hsla(22, 96, 28, 1); }
+.Fashion-4-hsla { color: hsla(16, 55, 66, 1); }
+.Fashion-5-hsla { color: hsla(0, 0, 15, 1); } */
+
