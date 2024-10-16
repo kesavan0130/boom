@@ -22,7 +22,20 @@ justify-content: space-between;
     color:wheat;
     /* text-align: center; */
     display: flex;
+    transition: all;
+
 }
+.contanier1 .title:hover{
+    background-color: wheat;
+    color: #731749;
+    transition: 1s;
+    
+    scale: 1.1;
+    border-radius: 9px;
+    text-align: center;
+
+}
+
 .contanier1 .navlist{
     text-decoration: none;
     color:#D9B70D ;
@@ -30,6 +43,15 @@ justify-content: space-between;
     justify-content: space-between;
     margin: 10px;
     width: 50%;
+    transition: all;
+}
+.contanier1 .navlist a:hover{
+    background-color: wheat;
+    color: #731749;
+    transition: 1s;
+    scale: 1.5;
+    border-radius: 9px;
+    text-align: center;
 }
 .contanier2{
     display: flex;
@@ -42,8 +64,12 @@ justify-content: space-between;
     height: 300px;
     width: 300px;
     border-radius: 50%;
+    transition: all;
 }
-
+.logo1:hover{
+    transition: 1s;
+    scale: 1.1;
+}
 .contanier2 h1{
     color: #731749;
 }
@@ -54,6 +80,11 @@ justify-content: space-between;
     font-size: 20px;
     text-align: center;
 }
+.contanier2 p:hover{
+    transition: 1s;
+    scale: 1.1;
+}
+
 .contanier3{
     display: flex;
     justify-content: space-between;
@@ -70,10 +101,80 @@ justify-content: space-between;
     font-size: 20px;
     text-align: center;
 }
+.contanier3 p:hover{
+    transition: 1s;
+    scale: 1.1;
+}
 
 .img2{
     height: 300px;
     width: 300px;
     border-radius: 50%;
+
+}
+.img2:hover{
+    transition: 1s;
+    scale: 1.1;
+}
+.contanier4{
+    text-align: center;
+    color: #731749;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    transition: all;
+
+}
+
+.card1{
+    width: 300px;
+    height: 60vh;
+    background-color: purple;
+    border-radius: 20px;
+}
+.card1:hover{
+    transition: 1s;
+    scale: 1.1;
+    
+    box-shadow: 5px 8px 5px 3px #F2B705 ;
+
+}
+
+.card2{
+    width: 300px;
+    height: 60vh;
+    background-color: purple;
+    border-radius: 20px;
+}
+.card2:hover{
+    transition: 1s;
+    scale: 1.1;
+    box-shadow: 5px 8px 5px 3px  #F2B705;
+
+}
+.card3{
+    width: 300px;
+    height: 60vh;
+    background-color: purple;
+    border-radius: 20px;
+}
+.card3:hover{
+    transition: 1s;
+    scale: 1.1;
+    box-shadow: 5px 8px 5px 3px  #F2B705;
+
+}
+.card4{
+    width: 300px;
+    height: 60vh;
+    background-color: purple;
+    border-radius: 20px;
+}
+.card4:hover{
+    transition: 1s;
+    scale: 1.1;
+    box-shadow: 5px 8px 5px 3px  #F2B705;
 
 }
