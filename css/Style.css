@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body{
-    background-color: white;
+    background-color: lightgrey;
 }
 
 .contanier1{
@@ -47,6 +47,17 @@ justify-content: space-between;
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+.contanier2{
+    padding-top: 10px;
+}
+.contanier2 h2{
+    color: #D9B70D;
+}
+.con1-content1{
+    width: 50%;
+    color: #731749
+    ;
 }
 
 /* Color Theme Swatches in Hex */
