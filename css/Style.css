@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body{
-    background-color: white;
+    background-color: #F2F1E9;
 }
 
 .contanier1{
@@ -34,50 +34,46 @@ justify-content: space-between;
 .contanier2{
     display: flex;
     justify-content: space-between;
+    padding: 20px  100px 0px 30px;
+   
 }
-.contanier2.con1-content{
-    justify-content: space-between;
-    display: flex;
-}
-.logo{
-    display: flex;
-    justify-content: space-between;
-}
+
 .logo1{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
-.contanier2{
-    padding-top: 10px;
+
+.contanier2 h1{
+    color: #731749;
 }
-.contanier2 h2{
-    color: #D9B70D;
+.contanier2 p{
+    /* width: 50%; */
+    padding: 10px;
+    color: #F2B705;
+    font-size: 20px;
+    text-align: center;
 }
-.con1-content1{
-    width: 50%;
-    color: #731749
-    ;
+.contanier3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px  100px 0px 30px;
+    
+}
+.contanier3 h1{
+    color: #731749;
+}
+.contanier3 p{
+    color: #F2B705;
+    padding: 40px 20px 0px 70px;
+    /* padding: 10px; */
+    font-size: 20px;
+    text-align: center;
 }
 
-/* Color Theme Swatches in Hex */
-/* .Fashion-1-hex { color: #0F97A6; }
-.Fashion-2-hex { color: #14A6A6; }
-.Fashion-3-hex { color: #8C3503; }
-.Fashion-4-hex { color: #D99379; }
-.Fashion-5-hex { color: #262626; } */
+.img2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 
-/* Color Theme Swatches in RGBA */
-/* .Fashion-1-rgba { color: rgba(14, 150, 165, 1); }
-.Fashion-2-rgba { color: rgba(19, 165, 165, 1); }
-.Fashion-3-rgba { color: rgba(140, 53, 2, 1); }
-.Fashion-4-rgba { color: rgba(216, 146, 121, 1); }
-.Fashion-5-rgba { color: rgba(38, 38, 38, 1); } */
-
-/* Color Theme Swatches in HSLA */
-/* .Fashion-1-hsla { color: hsla(185, 83, 35, 1); }
-.Fashion-2-hsla { color: hsla(180, 78, 36, 1); }
-.Fashion-3-hsla { color: hsla(22, 96, 28, 1); }
-.Fashion-4-hsla { color: hsla(16, 55, 66, 1); }
-.Fashion-5-hsla { color: hsla(0, 0, 15, 1); } */
-
+}
