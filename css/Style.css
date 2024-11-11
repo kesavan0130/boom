@@ -133,6 +133,15 @@ justify-content: space-between;
     height: 60vh;
     background-color: purple;
     border-radius: 20px;
+    color: white;
+
+}
+.card1 h1{
+    color:#D9B70D ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card1 p{
+    font-size: 20px;
 }
 .card1:hover{
     transition: 1s;
@@ -147,6 +156,7 @@ justify-content: space-between;
     height: 60vh;
     background-color: purple;
     border-radius: 20px;
+    color: white;
 }
 .card2:hover{
     transition: 1s;
@@ -154,11 +164,27 @@ justify-content: space-between;
     box-shadow: 5px 8px 5px 3px  #F2B705;
 
 }
+.card2 h1{
+    color:#D9B70D ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card2 p{
+    font-size: 20px;
+}
 .card3{
     width: 300px;
     height: 60vh;
     background-color: purple;
     border-radius: 20px;
+    color: white;
+}
+.card3 h1{
+    color:#D9B70D ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card3 p{
+    font-size: 20px;
+    padding: 10px;
 }
 .card3:hover{
     transition: 1s;
@@ -171,6 +197,16 @@ justify-content: space-between;
     height: 60vh;
     background-color: purple;
     border-radius: 20px;
+    color: white;
+}
+.card4 h1{
+    color:#D9B70D ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card4 p{
+    font-size: 19px;
+    padding: 10px;
+    
 }
 .card4:hover{
     transition: 1s;
